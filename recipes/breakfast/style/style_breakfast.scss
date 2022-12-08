@@ -1,0 +1,184 @@
+@import "zeroing.scss";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+$text: rgb(22, 22, 22);
+$text-use: #ee711e;
+$text-news: #222222;
+$font-text: 'Open Sans';
+
+
+body {
+    font-family: $font-text;
+    // background-color: rgb(223, 223, 223);
+    background: url(../img/fon.jpg);
+}
+.background {
+    background: url(../img/background.jpg) no-repeat center top / cover;
+    height: 20%;
+}
+header {
+    margin: 30px auto 0px auto;
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li {
+            margin-right: 30px;
+            text-transform: uppercase;
+            font-size: 20px;
+            color: rgb(192, 192, 192);
+            font-weight: 500;
+            &:last-child {
+                margin-right: 0px;
+            }
+            a {
+                color: #ffffff;
+                &:hover {
+                    color: $text-use;
+                    transition: 0.3s ease;
+                }
+            }
+            .active {
+                text-decoration: underline;
+                color: $text-use;
+            }
+        }
+    }
+    padding: 20px 0 20px 0;
+    border-top: 2px dashed #333333;
+    border-bottom: 2px dashed #333333;
+}
+.wrapper_content {
+    max-width: 1000px;
+    margin: 50px auto 0 auto ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .margin {
+        background-color: #333333;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        img {
+            border-radius: 15px;
+            &:hover {
+                transition: 0.5s all;
+                transform: scale(0.95);
+            }
+        }
+        h2 {
+            color: #ffffff;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 500;
+            margin: 10px 0;
+        }
+        p {
+            text-align: center;
+            font-size: 15px;
+        }
+        p a {
+            color: #ee711e;
+            bottom: 0;
+        }
+    }
+}
+.back {
+    max-width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    a {
+        padding: 10px 20px;
+        background-color: #444444;
+        color: #fff;
+        border-radius: 5px;
+        &:hover {
+            background-color: #222222;
+            color: #fff;
+            transition: 0.5s all;
+            transform: scale(0.95);
+        }
+    }
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+footer {
+    background-color: #333333;
+    .footer {
+        max-width: 1000px;
+        margin: 0 auto;
+        .footer_flex {
+            display: flex;
+            justify-content: space-between;
+            .footer_one {
+                padding-top: 10px;
+                color: #ffffff;
+                p {
+                    font-weight: 200;
+                    text-align: center;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    a {
+                        color: #ffffff;
+                        border-bottom: 1px solid #ffffff;
+                        &:hover {
+                            color: $text-use;
+                            transition: all .3s;
+                            border-bottom: 1px solid $text-use;
+                        }
+                    }
+                }
+                
+            }
+            .footer_two {
+                padding-top: 20px;
+                ul li{
+                    margin-top: 10px;
+                    a {
+                        color: #ffffff;
+                        font-weight: 500;
+                        &:hover {
+                            color: $text-use;
+                            transition: all .3s;
+                        }
+                    }
+                }
+            }
+            .footer_three {
+                padding-top: 20px;
+                ul li{
+                    margin-top: 10px;
+                    a {
+                        color: #ffffff;
+                        font-weight: 500;
+                        &:hover {
+                            color: $text-use;
+                            transition: all .3s;
+                        }
+                    }
+                }
+            }
+            .footer_four {
+                padding: 30px;
+                a {
+                    margin-left: 20px;
+                    img {
+                        max-width: 35px;
+                    }
+                }
+            }
+        }
+        padding-bottom: 10px;
+    }
+}
+.footer_ps {
+    .content {
+        max-width: 1000px;
+        margin: 0 auto;
+        p {
+            color: #979797;
+            text-align: center;
+            margin-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+}

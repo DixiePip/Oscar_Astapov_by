@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded',() => {
         });
     }
 
-    // Создание плавной прокрутки к блокам страницы через меню навигации
+    // Creating smooth scrolling to page blocks through the navigation menu
 
     const menuLinks = document.querySelectorAll('.menu_link[data-goto]');
     if (menuLinks.length > 0) {
@@ -41,8 +41,7 @@ document.addEventListener('DOMContentLoaded',() => {
         });
     });
      
-    // Смена темы 
-
+    // Change of topic
     const themeSwithers = document.querySelectorAll('.change-theme');
 
     themeSwithers.forEach(switcher => {
@@ -65,7 +64,7 @@ document.addEventListener('DOMContentLoaded',() => {
         applyTheme(activeTheme);
     }
 
-    // Плавное появление контента при скролле
+    // Smooth appearance of content on scroll
 
     const animItems = document.querySelectorAll('._anim-items');
 
@@ -135,12 +134,3 @@ function image_loaded() {
         }, 1000);
     }
 }
-
-
-
-
-
-
-// function preloaded() {
-    
-// }

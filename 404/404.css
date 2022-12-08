@@ -4,14 +4,14 @@
 
 body {
     background: url(/404/404_2.jpg) no-repeat center top / cover;
-    min-height: 100vh;
     font-family: "PT Sans";
-    padding-top: 5%;
     text-align: center;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
+
 img, .up {
+    padding-top: 5%;
     animation: 3s up infinite alternate;
 }
 
@@ -28,7 +28,7 @@ img, .up {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 9vh;
     margin-bottom: 0px;
     margin-top: 10px;
     color: rgb(206, 41, 41);
@@ -36,7 +36,7 @@ h1 {
     font-family: 'DotGothic16', sans-serif;
 }
 p {
-    font-size: 30px;
+    font-size: 5.5vh;
     font-family: "Comforter Brush";
 }
 

@@ -9,7 +9,6 @@ body {
     background: url(../img/wrapper_two_background_dark.webp) no-repeat center top / cover;
 }
 
-
 .header ul {
     color: #000;
 }
@@ -34,18 +33,16 @@ body {
 .category_skills {
     background-color: #222222;
 }
-
 .category_skills_left_top a, .category_skills_left_bottom a {
     color: #fff;
     border: 1px solid #fff;
 }
-
 .category_skills_right_top a, .category_skills_right_bottom a {
     color: #fff;
     border: 1px solid #fff;
 }
-/* Peach */
 
+/* Peach */
 .gulp:hover {
     background-color: #eb4a4b;
     color: #fff;
@@ -106,7 +103,6 @@ body {
     color: #fff;
     border: #4486f7 1px solid;
 }
-
 .projects {
     background-color: #222222;
 }
@@ -120,7 +116,6 @@ body {
 .projects_wrapper_five_right_about {
     color: #fff;
 }
-
 .projects_wrapper_one_right_about_btn a {
     color: #fff;
     border: 1px solid #fff;
@@ -130,8 +125,6 @@ body {
     border: 1px solid rgb(0, 0, 0);
     background-color: #fff;
 }
-
-
 .footer_information_top_social_networks ul li a {
     color: rgb(143, 143, 143);
 }
@@ -143,15 +136,12 @@ body {
 }.footer_information_top_about ul li a:hover {
     color: rgb(255, 255, 255);
 }
-
-
 footer {
     background: url(../img/bottom_dark.webp) no-repeat center top / cover;
 }
 footer .line {
     background-color: rgb(143, 143, 143);
 }
-
 .would_network:hover {
     color: #000;
     background-color: #fbe0b2;
@@ -166,7 +156,6 @@ footer .line {
     border: 1px solid rgb(0, 0, 0);
     background-color: #fbe0b2;
 }
-
 .bug{
     color: #e54f00;
 }
@@ -188,7 +177,6 @@ footer .line {
 .footer_information_bottom_right_idea {
     color: #fff;
 }
-
 .popup_gulp, 
 .popup_sass, 
 .popup_react,
@@ -203,7 +191,6 @@ footer .line {
 .popup_sql {
     background-color: rgb(0, 0, 0, 0.8);
 }
-
 .popup_content {
     background-color: #000000;
     border: 0.1px solid rgb(182, 182, 182, 0.5);
@@ -218,27 +205,23 @@ footer .line {
 .popup_text ul li a {
     color: #bebebe;
 }
-
 .error404 {
     background-color: rgb(133, 0, 0);
     color: #fff;
 }
-
-
-
 .change-theme[data-theme="dark"] {
     display: none;
 }
 .change-theme[data-theme="light"] {
     display: block;
 }
-
 .header_logo_dark {
     display: block;
 }
 .header_logo {
     display: none;
 }
+
 @media screen and (max-width: 767px) {
     .header_logo_dark {
         display: none;
@@ -303,9 +286,6 @@ footer .line {
     .sql_dark {
         display: block;
     }
-    /* .mobile_version_slider h1 {
-        color: #fff;
-    } */
 
     /* SWIPER */
     .my_projects  i{
@@ -340,8 +320,6 @@ footer .line {
    .color_3 h2{
     color: #222222;
    }
-
-   
 
     /* popup popup popup popup popup*/
 
@@ -575,8 +553,4 @@ footer .line {
     .popup_content_mobile_sql .popup_text ul li a{
         color: #fff;
     }
-
-
-
-    
 }

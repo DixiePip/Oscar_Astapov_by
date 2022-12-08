@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap'); /*прописной стиль*/
-@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap'); /*церковный*/
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
@@ -43,7 +43,6 @@ body {
 /*!-------------------------------*/
 
 /* section_one */
-
 body.lock {
     overflow: hidden;
 }
@@ -71,7 +70,6 @@ body.lock {
 }
 .section_one_headerAndImportantScreen {
     background: url(../img/wrapper_two_background.webp) no-repeat center top / cover;
-    /* height: 100vh; */
     min-height: 100%
 }
 .section_one_headerAndImportantScreen h1 {
@@ -90,7 +88,6 @@ body.lock {
 }
 
 /* section_two */
-
 .magazine {
     margin-left: -700px;
     margin-top: -20%;
@@ -115,7 +112,6 @@ body.lock {
     margin-left: -20px;
     transition: 0.5s all;
 }
-
 /* section_three_gazeta */
 .section_three_gazeta .gazeta{
     margin-top: 50px;
@@ -239,7 +235,6 @@ body.lock {
 }
 
 /* color  */
-
 .gulp:hover {
     background-color: #eb4a4b;
     color: #fff;
@@ -315,7 +310,6 @@ body.lock {
 
 /* <section class="projects"> */
 /* .projects_wrapper_one */
-
 .projects {
     margin-top: 30px;
     background-color: #fff;
@@ -326,7 +320,6 @@ body.lock {
 }
 
 /* .projects_wrapper_one  */
-
 .projects_wrapper_one {
     display: flex;
     justify-content: space-around;
@@ -393,7 +386,6 @@ body.lock {
 }
 
 /* .projects_wrapper_two */
-
 .projects_wrapper_two {
     display: flex;
     justify-content: space-around;
@@ -445,7 +437,6 @@ body.lock {
 }
 
 /* wrapper_three */
-
 .projects_wrapper_three {
     display: flex;
     justify-content: space-around;
@@ -499,7 +490,6 @@ body.lock {
 }
 
 /* wrapper_four */
-
 .projects_wrapper_four {
     display: flex;
     justify-content: space-around;
@@ -552,7 +542,6 @@ body.lock {
 }
 
 /* wrapper_five */
-
 .projects_wrapper_five {
     display: flex;
     justify-content: space-around;
@@ -606,10 +595,8 @@ body.lock {
 }
 
 /* bottom */
-
 footer {
     background: url(../img/bottom.webp) no-repeat center top / cover;
-    /* height: 100vh; */
 }
 .wrapper_footer {
     max-width: 1400px;
@@ -623,10 +610,8 @@ footer {
 }
 
 /* .footer_information_top_social_networks */
-
 .footer_information_top_social_networks ul{
     display: flex;
-    /* margin-top: 20px; */
 }
 .footer_information_top_social_networks ul li{
     font-size: 25px;
@@ -649,7 +634,6 @@ footer {
 }
 
 /* footer_information_top_about */
-
 .footer_information_top_about ul{
     display: flex;
 }
@@ -669,7 +653,6 @@ footer {
 }
 
 /* footer_information_bottom */
-
 .footer_information_bottom {
     display: flex;
     justify-content: space-between;
@@ -678,7 +661,6 @@ footer {
 }
 
 /* footer_information_bottom_left */
-
 .footer_information_bottom_left {
     width: 400px;
 }
@@ -720,7 +702,6 @@ footer {
 }
 
 /* footer_information_bottom_center */
-
 .footer_information_bottom_center a img{
     margin-top: -270px;
 }
@@ -731,7 +712,6 @@ footer {
 }
 
 /* footer_information_bottom_right */
-
 .footer_information_bottom_right {
     text-align: right;
     width: 300px;
@@ -773,7 +753,6 @@ footer {
 }
 
 /* footer_logo */
-
 .footer_logo {
     animation: pulsing 3s infinite;
 }
@@ -793,8 +772,7 @@ footer {
     }
 }
 
-/* Делаем демонстрацию страницы в tablet */
-
+/* We make a demonstration of pages in the tablet */
 .magazine_tablet {
     display: none;
 }
@@ -883,12 +861,9 @@ footer {
 .sql_dark {
     display: none;
 }
+
 /* POPUP */
-
-.button {
-    text-decoration: underline;
-}
-
+.button {text-decoration: underline;}
 .popup_gulp, 
 .popup_sass, 
 .popup_react,
@@ -916,11 +891,6 @@ footer {
     font-weight: 400;
 }
 
-/* .popup_gulp.open {
-    opacity: 1;
-    visibility: visible;
-} */
-
 .popup_gulp:target,
 .popup_sass:target,
 .popup_react:target,
@@ -936,11 +906,6 @@ footer {
     opacity: 1;
     visibility: visible;
 }
-
-/* .popup_gulp.open .popup_content {
-    transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
-    opacity: 1;
-} */
 
 .popup_gulp:target .popup_content,
 .popup_sass:target .popup_content,
@@ -1002,7 +967,6 @@ footer {
     color: #fff;
     text-decoration: none;
 }
-
 .popup_title {
     font-size: 25px;
     margin: 0px 0px 1em 0px;
@@ -1029,9 +993,8 @@ footer {
     color: #fff;
 }
 
-/* В разработке... */
-/* Переключение темы */
-
+/* In developing... */
+/* Theme switch */
 .theme {
     position: fixed;
     top: 10px;
@@ -1050,9 +1013,7 @@ footer {
     cursor: pointer;
 }
 
-
 /* Preloader */
-
 .preloader-2 {
    position: fixed;
     left: 0;
@@ -1084,6 +1045,3 @@ footer {
     font-size: 55px;
     color: #fff;
 }
-
-
-

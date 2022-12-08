@@ -1,15 +1,12 @@
 
 a {text-decoration: none;
     color: #000;}
-
 body {
     background-color: rgb(255, 255, 255);
 }
-
 .header ul {
     color: #000;
 }
-
 .menu_list li a {
     color: #fff;
 }
@@ -19,20 +16,17 @@ body {
 .section_two_magazine .btn {
     color: #302f30;
 }
-
 .category_skills {
     background-color: #fff;
 }
-
 .category_skills_left_top a, .category_skills_left_bottom a {
     border: 1px solid #000;
 }
-
 .category_skills_right_top a, .category_skills_right_bottom a {
     border: 1px solid #000;
 }
-/* Peach */
 
+/* Peach */
 .gulp:hover {
     background-color: #eb4a4b;
     color: #fff;
@@ -93,11 +87,9 @@ body {
     color: #fff;
     border: #fff 1px solid;
 }
-
 .projects {
     background-color: #fff;
 }
-
 .projects_h1 {
     border-bottom: 1px solid rgb(68, 60, 60);
 }
@@ -109,7 +101,6 @@ body {
     color: #fff;
     background-color: rgb(34, 34, 34);
 }
-
 .projects_wrapper_two_left_about_btn a {
     border: 1px solid black;
 }
@@ -143,7 +134,6 @@ body {
 .projects_wrapper_four_right_img img {
     box-shadow: 1px 1px 20px 1px rgb(0, 0, 0);
 }
-
 .projects_wrapper_five_right_about_btn a {
     border: 1px solid black;
 }
@@ -166,14 +156,11 @@ body {
 .line {
     background-color: rgb(0, 0, 0, 0.3);
 }
-
-
 .footer_information_top_about ul li a {
     color: rgb(143, 143, 143);;
 }.footer_information_top_about ul li a:hover {
     color: #000;
 }
-
 .would_network:hover {
     background-color: #fdebcc;
 }
@@ -187,7 +174,6 @@ body {
     border: 1px solid rgb(0, 0, 0, 0.2);
     background-color: #fbe0b2;
 }
-
 .bug{
     color: #e54f00;
 }
@@ -206,10 +192,6 @@ body {
     background-color: #fbe0b2;
 }
 
-
-
-
-
 .popup_gulp, 
 .popup_sass, 
 .popup_react,
@@ -224,7 +206,6 @@ body {
 .popup_sql {
     background-color: rgb(0, 0, 0, 0.8);
 }
-
 .popup_content {
     background-color: #000000;
     border: 0.1px solid rgb(182, 182, 182, 0.5);
@@ -239,12 +220,10 @@ body {
 .popup_text ul li a {
     color: #bebebe;
 }
-
 .error404 {
     background-color: rgb(133, 0, 0);
     color: #fff;
 }
-
 .change-theme[data-theme="dark"] {
     display: block;
 }
@@ -252,9 +231,7 @@ body {
     display: none;
 }
 
-
 /* popup popup popup popup popup*/
-
     /* sass  */
     .popup_content_mobile_sass {
         display: block;

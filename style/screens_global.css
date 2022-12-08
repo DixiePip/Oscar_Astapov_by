@@ -1,44 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
 
-/* MEDIA SCREEN MIN 1410 PX */
-/* @media screen and (min-width: 1410px) {
-    .header ul {
-        font-size: 40px;
-    }
-    .section_one_headerAndImportantScreen h1 {
-        font-size: 50px;
-    }
-    .category_skills {
-        font-size: 25px;
-    }
-    .projects_h1 {
-        font-size: 100px;
-    }
-    .projects_p {
-        font-size: 50px;
-    }
-    .projects_wrapper_one_right_about h2,
-    .projects_wrapper_two_left_about h2,
-    .projects_wrapper_three_right_about h2,
-    .projects_wrapper_four_left_about h2,
-    .projects_wrapper_five_right_about h2{
-        font-size: 70px;
-    }
-    .projects_wrapper_one_right_about p,
-    .projects_wrapper_two_left_about p,
-    .projects_wrapper_three_right_about p,
-    .projects_wrapper_four_left_about p,
-    .projects_wrapper_five_right_about p{
-        font-size: 35px;
-    }
-    .projects_wrapper_one_right_about_btn,
-    .projects_wrapper_two_left_about_btn,
-    .projects_wrapper_three_right_about_btn,
-    .projects_wrapper_four_left_about_btn,
-    .projects_wrapper_five_right_about_btn {
-        font-size: 40px;
-    }
-}  */
 /* MEDIA SCREEN 1400 PX */
 @media screen and (max-width: 1400px) {
     .wrapper_footer {
@@ -163,11 +124,7 @@
     }
 }
 
-/* 
-    MEDIA SCREEN 991 PX 
-    TABLET VERSION
-*/
-
+/*  MEDIA SCREEN 991 PX TABLET VERSION */
 @media screen and (max-width: 991px) { 
     .header {
         max-width: 550px;
@@ -199,9 +156,7 @@
     .information_skills p {
         font-size: 35px;
     }
-    /* projects_wrapper_one */
     .projects_wrapper_one {
-        /* flex-wrap: wrap; */
         display: block;
     }
     .projects_wrapper_one_left_img{
@@ -212,9 +167,7 @@
         margin-top: 30px;
     }
 
-    /* projects_wrapper_two
-    Поменять местами окошки 
-    второго блока (мой дневник)*/
+    /* projects_wrapper_two*/
     .projects_wrapper_two_right_desctopVersion {
         display: block;
     }
@@ -250,9 +203,7 @@
         margin-top: 30px;
     }
 
-    /* projects_wrapper_four
-    Поменять местами окошки 
-    второго блока (хобби)*/
+    /* projects_wrapper_four*/
     .projects_wrapper_four_right_desctopVersion {
         display: block;
     }
@@ -412,10 +363,7 @@
         padding-bottom: 35px;
     }
  }
-/* 
-    MEDIA SCREEN 768 PX
-    very important!
-*/ 
+/* MEDIA SCREEN 768 PXvery important! */ 
 
 @media screen and (max-width: 767px) { 
 
@@ -439,7 +387,6 @@
     }
 
     /* burger */
-
     .menu_icon {
         z-index: 5;
         display: block;
@@ -539,8 +486,6 @@
     }
     /* burger end */
 
-
-
     body._lock {
         overflow: hidden;
     }
@@ -610,6 +555,7 @@
     .crib {
         margin-top: 320px;
     }
+
     /* gazeta */
     .gazeta {
         display: none;
@@ -635,14 +581,12 @@
     .peach_three_div .peach_three {
         display: none;
     }
-    
     .projects_wrapper_one_left_img img,
     .projects_wrapper_two_right_img img,
     .projects_wrapper_three_left_img img,
     .projects_wrapper_four_right_img img,
     .projects_wrapper_four_right_img img,
     .projects_wrapper_five_left_img img {
-        /* box-shadow: 1px 1px 20px 1px rgb(0, 0, 0); */
         filter: grayscale(0%);
     }
     .gazeta_tablet {
@@ -788,7 +732,7 @@
         color: #fff;
     }
 
-    /* .theme */
+    /* theme */
     .header_logo_dark {
         display: none;
     }
@@ -899,6 +843,7 @@
         margin: 50px auto 0px 70px;
     }
 }
+
  /* MEDIA SCREEN 600 PX */
 @media screen and (max-width: 600px) {
     .category_skills_right_bottom a {
@@ -952,7 +897,6 @@
         max-width: 580px;
         margin: -50px auto 0 auto;
     }
-
     .information_skills {
         margin-right: 15px;
         margin-left: 15px;
@@ -960,19 +904,15 @@
     .information_skills p {
         font-size: 40px;
     }
-
     .PhotoShop {
         margin-right: 25px;
     }
-
     .category_skills {
         margin: 50px auto 0px 60px;
     }
-
     .projects_wrapper {
         margin-right: 15px;
         margin-left: 15px;
-
     }
     .footer_information_bottom_left .p {
         font-size: 22px;
@@ -984,6 +924,7 @@
         padding: 100px 15px;
     }
  }
+
   /* MEDIA SCREEN 550 PX */
 @media screen and (max-width: 550px) {
     .magazine_one,
@@ -1057,8 +998,8 @@
 
         padding-bottom: 700px;
     }
+
     /* wrapper_two */
-    
     .wrapper_magazine_mobile {
         display: block;
         color: #fff;
@@ -1094,7 +1035,6 @@
     .wrapper_about_mobile_black {
         height: 20px;
     }
-
     .wrapper_about_mobile_ul_one,
     .wrapper_about_mobile_ul_two,
     .wrapper_about_mobile_ul_three,
@@ -1117,8 +1057,6 @@
 
     .wrapper_magazine_mobile_bottom {
         display: block;
-       
-
     }
     .wrapper_magazine_mobile_bottom img {
         max-width: 100vw;
@@ -1204,27 +1142,18 @@
         margin: 20px 20px 50px 20px;
     }
 
-
-
-
     /* !!!!!!!!!!!!!!!!!!!!! */
     .projects_wrapper_mobile_none {
         display: none;
     }
     /* !!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-
-
-
     /* slider */
     .mobile_version_slider {
         display: block;
         max-width: 95%;
         margin: 0 auto 60px auto;
-
-        
     }
-    
     .mobile_version_slider h1 {
         font-family: "Roboto Condensed";
         font-size: 2.2em;
@@ -1271,20 +1200,17 @@
         padding: 5px;
     }
     
-    
-
-    /* !Общие параметры */
-    /* *Ограничивающая оболочка* */
+    /* !Common parameters */
+    /* *Bounding Shell* */
     .slick-list {
         overflow: hidden;
     }
-   /* *Лента слайдов* */
+   /* *slide feed* */
    .slick-track {
     display: flex;
    }
    
-
-   /* !Специальные параметры */
+   /* !Special Options */
    .slider {
     position: relative;
     padding: 0 5px;
@@ -1334,9 +1260,9 @@
    }
    .slider .slick-dots li.slick-active button {
     background-color: #000;
-    
    }
 
+   /* other */
    ._222 {
         font-family: "Caveat";
         font-size: 1.8em;
@@ -1345,7 +1271,6 @@
         margin-top: 30px;
         color: #222222;
     }
-
    .color_1 {
     background: url(../img/mobile/project.webp) no-repeat center top / cover;
     border-radius: 15px;
@@ -1367,7 +1292,6 @@
     border-radius: 15px;
     }
    
-
     /* footer mobile */
     .footer_mobile {
         display: block;
@@ -1401,7 +1325,6 @@
     .wrapper_footer_mobile_ul ul li a {
         color: #fff;
     }
-    
     .wrapper_footer_mobile_p,
     .wrapper_footer_mobile_copyright {
         font-family: "Roboto Condensed";
@@ -1423,8 +1346,6 @@
         width: 100%;
         height: 100%;
     }
-
-
 
     /* display: none */
     .header_signature {
@@ -1455,7 +1376,6 @@
     .projects_h1 {
         display: none;
     }
-
     .projects_wrapper img {
         display: none;
     }
@@ -1465,11 +1385,6 @@
     .header_logo_dark {
         display: none;
     }
-    
-    
-    
-
-
     .theme {
         position: relative;
         margin: 0 auto;
@@ -1488,12 +1403,11 @@
     .theme {
         margin-top: -70px;
     }
-
-
     .close_black {
         color: #000;
     }
 }
+
   /* MEDIA SCREEN 470 PX */
 @media screen and (max-width: 470px) { 
     .section_one_headerAndImportantScreen h1 {
@@ -1506,11 +1420,13 @@
         height: 130vw;
     }
 }
+
 @media screen and (max-width: 370px) { 
     .slider_item {
         height: 135vw;
     }
 }
+
 @media screen and (max-width: 330px) { 
     .section_one_headerAndImportantScreen h1 {
         font-size: 17px;

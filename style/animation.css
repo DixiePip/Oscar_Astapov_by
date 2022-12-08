@@ -1,0 +1,188 @@
+
+/* Добавление анимации при скролле */
+/* КОМПЬЮТЕРНАЯ ВЕРСИЯ */
+/* Появление навигационного меню */
+/* active_1 */
+.menu_link_active_1 {opacity: 0;transition: all 0.8s ease 0s;}
+.menu_link_active_1._active {opacity: 1;transition: all 0.8s ease 0.5s;}
+/* active_2 */
+.menu_link_active_2 {opacity: 0;transition: all 0.8s ease 0s;}
+.menu_link_active_2._active {opacity: 1;transition: all 0.8s ease 1s;}
+/* active_3 */
+.menu_link_active_3 {opacity: 0;transition: all 0.8s ease 0s;}
+.menu_link_active_3._active {opacity: 1;transition: all 0.8s ease 1.5s;}
+/* active_4 */
+.menu_link_active_4 {opacity: 0;transition: all 0.8s ease 0s;}
+.menu_link_active_4._active {opacity: 1;transition: all 0.8s ease 2s;}
+
+/* Появление главного экрана */
+.section_one_headerAndImportantScreen {opacity: 0;transition: all 0.8s ease 0s;}
+.section_one_headerAndImportantScreen._active {opacity: 1;transition: all 2s ease 0s;}
+
+/* Появление заголовка главного экрана */
+.h1 {transform: translate(-100px, 0px);opacity: 0;transition: all 0.8s ease 0s;}
+.h1._active{transform: translate(0px, 0px);opacity: 1;transition: all 0.8s ease 2.5s;}
+
+/* Появление журнала */
+.a_magazine {transform: translate(-100%, 0px);transition: all 0.8s ease 0s;}
+.wrapper_magazine._active .a_magazine {transform: translate(0px, 0px);}
+
+/* Появление навыков, заголовок */
+.information_skills h1 {  transform: translate(0px, 100px);opacity: 0;transition: all 0.8s ease 0s;}
+.information_skills h1._active{transform: translate(0px, 0px);opacity: 1;transition: all 0.8s ease 0s;}
+
+/* Появление навыков, текст */
+.information_skills p {transform: translate(0px, 100px);opacity: 0;transition: all 0.8s ease 0s;}
+.information_skills p._active{transform: translate(0px, 0px);opacity: 1;transition: all 0.8s ease 0.5s;}
+
+/* Воявление табов навыков слева */
+.category_skills_left {transform: translate(-50%, -50%);opacity: 0;transition: all 0.8s ease 0s;}
+.category_skills_left._active {transform: translate(0px, 0px);opacity: 1;transition: all 0.8s ease 0.7s;}
+
+/* Воявление табов навыков справо */
+.category_skills_right {transform: translate(-50%, -50%);opacity: 0;transition: all 0.8s ease 0s;}
+.category_skills_right._active {transform: translate(0px, 0px);opacity: 1;transition: all 0.8s ease 0.7s;}
+
+/* projects_p */
+.projects_p {transform: translate(0px, 100%);opacity: 0;transition: all 0.8s ease 0s;}
+.projects_p._active {transform: translate(0px, 0px);opacity: 1;transition: all 0.8s ease 0s;}
+
+/* активное появление проектов фотографий*/
+.projects_wrapper_one_left { transform: scale(0); opacity: 0; transition: all 1s ease 0s; }
+.projects_wrapper_one_left._active {transform: scale(1); opacity: 1; transition: all 1s ease 0.1s;}
+
+.projects_wrapper_two_right { transform: scale(0); opacity: 0; transition: all 1s ease 0s; }
+.projects_wrapper_two_right._active {transform: scale(1); opacity: 1; transition: all 1s ease 0.1s;}
+
+.projects_wrapper_three_left { transform: scale(0); opacity: 0; transition: all 1s ease 0s; }
+.projects_wrapper_three_left._active {transform: scale(1); opacity: 1; transition: all 1s ease 0.1s;}
+
+.projects_wrapper_four_right { transform: scale(0); opacity: 0; transition: all 1s ease 0s; }
+.projects_wrapper_four_right._active {transform: scale(1); opacity: 1; transition: all 1s ease 0.1s;}
+
+.projects_wrapper_five_left { transform: scale(0); opacity: 0; transition: all 1s ease 0s; }
+.projects_wrapper_five_left._active {transform: scale(1); opacity: 1; transition: all 1s ease 0.1s;}
+
+/* Появление верхнего футера */
+.footer_information_top_social_networks,
+.footer_information_top_about {opacity: 0;}
+.footer_information_top_social_networks._active,
+.footer_information_top_about._active {opacity: 1;transition: all ease 1s;}
+
+/* Появление логотипа посередине */
+.footer_logo {transform: scale(0);opacity: 0;}
+.footer_logo._active {transform: scale(1);opacity: 1;transition: all 0.5s ease 0.5s;}
+
+/* Появление нижнего футера */
+.footer_information_bottom_left {transform: scale(0);opacity: 0;}
+.footer_information_bottom_left._active {transform: scale(1);opacity: 1;transition: all 0.5s ease;}
+.footer_information_bottom_right {transform: scale(0);opacity: 0;}
+.footer_information_bottom_right._active {transform: scale(1);opacity: 1;transition: all 0.5s ease;}
+
+@media screen and (max-width: 991px) { 
+    /* Появление проектов для десктопной версии */
+    .projects_wrapper_two_right_desctopVersion,
+    .projects_wrapper_four_right_desctopVersion {transform: scale(0); opacity: 0; transition: all 1s ease 0s; } 
+    .projects_wrapper_two_right_desctopVersion._active,
+    .projects_wrapper_four_right_desctopVersion._active {transform: scale(1); opacity: 1; transition: all 1s ease 0.1s;}
+
+    /* Появление верхнего футера */
+    .footer_information_top_social_networks,
+    .footer_information_top_about {opacity: 0;}
+    .footer_information_top_social_networks._active,
+    .footer_information_top_about._active {opacity: 1;transition: all 1s ease 0.5s;}
+    
+    /* Появление логотипа посередине */
+    .footer_logo {transform: scale(0);opacity: 0; transition: all 1s ease 0.5;}
+    .footer_logo._active {transform: scale(1);opacity: 1;transition: all 1.5s ease 0.5s;}
+
+    /* Появление нижнего футера */
+    .footer_information_bottom_left {transform: scale(0);opacity: 0;}
+    .footer_information_bottom_left._active {transform: scale(1);opacity: 1;transition: all 1s ease 0.5s;}
+    .footer_information_bottom_right {transform: scale(0);opacity: 0;}
+    .footer_information_bottom_right._active {transform: scale(1);opacity: 1;transition: all 1s ease 0.5s;}
+} 
+
+@media screen and (max-width: 500px) { 
+    /* МОБИЛЬНАЯ ВЕРСИЯ */
+    /* Появление "В чем же смысл?" */
+    .wrapper_about_mobile_h1 {transform: translate(-50%, 0px); opacity: 0; transition: all 1s ease 0.5s;}
+    .wrapper_about_mobile_h1._active {transform: translate(0px, 0px); opacity: 1;transition: all 1s ease 0s;}
+    /* первый */
+    .wrapper_about_mobile_ul_one {transform: translate(-50%, -50%); opacity: 0; transition: all 1s ease 0.5s;}
+    .wrapper_about_mobile_ul_one._active { transform: translate(0px, 0px); opacity: 1; transition: all 1s ease 0.3s;}
+    /* второй */
+    .wrapper_about_mobile_ul_two { transform: translate(-30%, 0px); opacity: 0; transition: all 1s ease 0.5s;}
+    .wrapper_about_mobile_ul_two._active { transform: translate(0px, 0px); opacity: 1; transition: all 1s ease 0.6s;}
+    /* третий */
+    .wrapper_about_mobile_ul_three { transform: translate(-30%, 0px);  opacity: 0;  transition: all 1s ease 0.5s;}
+    .wrapper_about_mobile_ul_three._active { transform: translate(0px, 0px); opacity: 1; transition: all 1s ease 0.6s;}
+    /* четвертый */
+    .wrapper_about_mobile_ul_four {  transform: translate(-50%, 50%);  opacity: 0;  transition: all 1s ease 0.5s;}
+    .wrapper_about_mobile_ul_four._active { transform: translate(0px, 0px); opacity: 1; transition: all 1s ease 0.6s;}
+
+    /* Появление заголовка дневника */
+    .wrapper_about_author_h1 { transform: translate(0px, -50%); opacity: 0; transition: all 1s ease 0s;}
+    .wrapper_about_author_h1._active { transform: translate(0px, 0px);  opacity: 1;  transition: all 1s ease 0.5s;}
+    /* Появление текста дневника */
+    .wrapper_about_author_up {  transform: translate(0px, -50%);  opacity: 0;  transition: all 1s ease 0s;}
+    .wrapper_about_author_up._active {  transform: translate(0px, 0px); opacity: 1;  transition: all 1s ease 1s;}
+
+    /* Появление скилов */
+    /* первый левый */
+    .category_skills_mobile_one_left {  transform: scale(0);  opacity: 0; transition: all 1s ease 0s;}
+    .category_skills_mobile_one_left._active {  transform: scale(1);  opacity: 1; transition: all 0.8s ease 0s;}
+    /* второй левый*/
+    .category_skills_mobile_two_left { transform: scale(0);  opacity: 0; transition: all 1s ease 0s;}
+    .category_skills_mobile_two_left._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0s;}
+    /* третий левый*/
+    .category_skills_mobile_three_left {  transform: scale(0);  opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_three_left._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0s;}
+    /* четвертый левый*/
+    .category_skills_mobile_four_left {  transform: scale(0);  opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_four_left._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0s;}
+    /* пятый левый*/
+    .category_skills_mobile_five_left { transform: scale(0);  opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_five_left._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0s;}
+    /* шестой левый*/
+    .category_skills_mobile_six_left {  transform: scale(0);  opacity: 0; transition: all 1s ease 0s;}
+    .category_skills_mobile_six_left._active {  transform: scale(1);  opacity: 1; transition: all 0.8s ease 0s;}
+    /* первый правый*/
+    .category_skills_mobile_one_right {  transform: scale(0);  opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_one_right._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0.1s;}
+    /* второй правый*/
+    .category_skills_mobile_two_right {  transform: scale(0);  opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_two_right._active {  transform: scale(1);  opacity: 1; transition: all 0.8s ease 0.1s;}
+    /* третий правый*/
+    .category_skills_mobile_three_right {  transform: scale(0); opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_three_right._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0.1s;}
+    /* четвертый правый*/
+    .category_skills_mobile_four_right {  transform: scale(0);  opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_four_right._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0.1s;}
+    /* пятый правый*/
+    .category_skills_mobile_five_right {  transform: scale(0);  opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_five_right._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0.1s;}
+    /* шестой правый*/
+    .category_skills_mobile_six_right {  transform: scale(0);  opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_six_right._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0.1s;}
+
+    /* Появление футера резюме и линк */
+    .wrapper_footer_mobile_btn {  transform: scale(0); opacity: 0; transition: all 1s ease 0s;}
+    .wrapper_footer_mobile_btn._active { transform: scale(1); opacity: 1;  transition: all 0.8s ease 0.3s;}
+
+    /* Появление инсты */
+    .footer_m_inst {  transform: translate(-150%, 0px);  opacity: 0; transition: all 1s ease 0s;}
+    .footer_m_inst._active { transform: translate(0px, 0px); opacity: 1; transition: all 0.8s ease 0.7s;}
+    /* Появление телеги */
+    .footer_m_telega {  transform: translate(-150%, 0px);  opacity: 0; transition: all 1s ease 0s;}
+    .footer_m_telega._active {  transform: translate(0px, 0px);  opacity: 1; transition: all 0.8s ease 0.9s;}
+    /* Появление тик тока */
+    .footer_m_tt { transform: translate(-150%, 0px); opacity: 0;  transition: all 1s ease 0s;}
+    .footer_m_tt._active { transform: translate(0px, 0px);  opacity: 1;  transition: all 0.8s ease 1.1s;}
+
+    /* Появление копирайта */
+    .wrapper_footer_mobile_p {  transform: translate(0px, 50%);  opacity: 0;  transition: all 1s ease 0s;}
+    .wrapper_footer_mobile_p._active {  transform: translate(0px, 0px);  opacity: 1;  transition: all 0.8s ease 1.3s;}
+    .wrapper_footer_mobile_copyright { transform: translate(0px, 50%); opacity: 0;  transition: all 1s ease 0s;}
+    .wrapper_footer_mobile_copyright._active {  transform: translate(0px, 0px);  opacity: 1; transition: all 0.8s ease 1.4s;}
+}

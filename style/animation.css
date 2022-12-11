@@ -169,22 +169,23 @@
     .wrapper_footer_mobile_btn {  transform: scale(0); opacity: 0; transition: all 1s ease 0s;}
     .wrapper_footer_mobile_btn._active { transform: scale(1); opacity: 1;  transition: all 0.8s ease 0.3s;}
 
-    /* Inst */
+     /* Tg */
+     .footer_m_telega {  transform: translate(-150%, 0px);  opacity: 0; transition: all 1s ease 0s;}
+     .footer_m_telega._active {  transform: translate(0px, 0px);  opacity: 1; transition: all 0.8s ease 0.9s;} 
+     /* Inst */
     .footer_m_inst {  transform: translate(-150%, 0px);  opacity: 0; transition: all 1s ease 0s;}
-    .footer_m_inst._active { transform: translate(0px, 0px); opacity: 1; transition: all 0.8s ease 0.7s;}
-    /* Tg */
-    .footer_m_telega {  transform: translate(-150%, 0px);  opacity: 0; transition: all 1s ease 0s;}
-    .footer_m_telega._active {  transform: translate(0px, 0px);  opacity: 1; transition: all 0.8s ease 0.9s;}
-    /* Tt */
+    .footer_m_inst._active { transform: translate(0px, 0px); opacity: 1; transition: all 0.8s ease 1.1s;}
+     /* Tt */
     .footer_m_tt { transform: translate(-150%, 0px); opacity: 0;  transition: all 1s ease 0s;}
-    .footer_m_tt._active { transform: translate(0px, 0px);  opacity: 1;  transition: all 0.8s ease 1.1s;}
+    .footer_m_tt._active { transform: translate(0px, 0px);  opacity: 1;  transition: all 0.8s ease 1.3s;}
+  
     /* Resume */
-    .footer_m_rezume { transform: translate(-150%, 0px); opacity: 0;  transition: all 1s ease 0s;}
-    .footer_m_rezume._active { transform: translate(0px, 0px);  opacity: 1;  transition: all 0.8s ease 1.3s;}
+    .footer_m_rezume { transform: translate(0%, 50%); opacity: 0;  transition: all 1s ease 0s;}
+    .footer_m_rezume._active { transform: translate(0px, 0px);  opacity: 1;  transition: all 0.8s ease 1.5s;}
 
     /* Copyright */
     .wrapper_footer_mobile_p {  transform: translate(0px, 50%);  opacity: 0;  transition: all 1s ease 0s;}
-    .wrapper_footer_mobile_p._active {  transform: translate(0px, 0px);  opacity: 1;  transition: all 0.8s ease 1.3s;}
+    .wrapper_footer_mobile_p._active {  transform: translate(0px, 0px);  opacity: 1;  transition: all 0.8s ease 1.6s;}
     .wrapper_footer_mobile_copyright { transform: translate(0px, 50%); opacity: 0;  transition: all 1s ease 0s;}
-    .wrapper_footer_mobile_copyright._active {  transform: translate(0px, 0px);  opacity: 1; transition: all 0.8s ease 1.4s;}
+    .wrapper_footer_mobile_copyright._active {  transform: translate(0px, 0px);  opacity: 1; transition: all 0.8s ease 1.7s;}
 }

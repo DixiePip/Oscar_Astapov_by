@@ -1,0 +1,191 @@
+/* Add animation on scroll */
+/* COMPUTER VERSION */
+/* The appearance of the navigation menu */
+/* active_1 */
+.menu_link_active_1 {opacity: 0;transition: all 0.8s ease 0s;}
+.menu_link_active_1._active {opacity: 1;transition: all 0.8s ease 0.5s;}
+/* active_2 */
+.menu_link_active_2 {opacity: 0;transition: all 0.8s ease 0s;}
+.menu_link_active_2._active {opacity: 1;transition: all 0.8s ease 1s;}
+/* active_3 */
+.menu_link_active_3 {opacity: 0;transition: all 0.8s ease 0s;}
+.menu_link_active_3._active {opacity: 1;transition: all 0.8s ease 1.5s;}
+/* active_4 */
+.menu_link_active_4 {opacity: 0;transition: all 0.8s ease 0s;}
+.menu_link_active_4._active {opacity: 1;transition: all 0.8s ease 2s;}
+
+/* Home Screen Appearance */
+.section_one_headerAndImportantScreen {opacity: 0;transition: all 0.8s ease 0s;}
+.section_one_headerAndImportantScreen._active {opacity: 1;transition: all 2s ease 0s;}
+
+/* Home Screen Title Appearance */
+.h1 {transform: translate(-100px, 0px);opacity: 0;transition: all 0.8s ease 0s;}
+.h1._active{transform: translate(0px, 0px);opacity: 1;transition: all 0.8s ease 2.5s;}
+
+/* The appearance of the magazine */
+.a_magazine {transform: translate(-100%, 0px);transition: all 0.8s ease 0s;}
+.wrapper_magazine._active .a_magazine {transform: translate(0px, 0px);}
+
+/* Emergence of skills, title */
+.information_skills h1 {  transform: translate(0px, 100px);opacity: 0;transition: all 0.8s ease 0s;}
+.information_skills h1._active{transform: translate(0px, 0px);opacity: 1;transition: all 0.8s ease 0s;}
+
+/* Emergence of Skills, text */
+.information_skills p {transform: translate(0px, 100px);opacity: 0;transition: all 0.8s ease 0s;}
+.information_skills p._active{transform: translate(0px, 0px);opacity: 1;transition: all 0.8s ease 0.5s;}
+
+/* Appearance of skill tabs on the left */
+.category_skills_left {transform: translate(-50%, -50%);opacity: 0;transition: all 0.8s ease 0s;}
+.category_skills_left._active {transform: translate(0px, 0px);opacity: 1;transition: all 0.8s ease 0.7s;}
+
+/* Appearance of skill tabs on the right */
+.category_skills_right {transform: translate(-50%, -50%);opacity: 0;transition: all 0.8s ease 0s;}
+.category_skills_right._active {transform: translate(0px, 0px);opacity: 1;transition: all 0.8s ease 0.7s;}
+
+/* projects_p */
+.projects_p {transform: translate(0px, 100%);opacity: 0;transition: all 0.8s ease 0s;}
+.projects_p._active {transform: translate(0px, 0px);opacity: 1;transition: all 0.8s ease 0s;}
+
+/* Active emergence of photography projects*/
+.projects_wrapper_one_left { transform: scale(0); opacity: 0; transition: all 1s ease 0s; }
+.projects_wrapper_one_left._active {transform: scale(1); opacity: 1; transition: all 1s ease 0.1s;}
+
+.projects_wrapper_two_right { transform: scale(0); opacity: 0; transition: all 1s ease 0s; }
+.projects_wrapper_two_right._active {transform: scale(1); opacity: 1; transition: all 1s ease 0.1s;}
+
+.projects_wrapper_three_left { transform: scale(0); opacity: 0; transition: all 1s ease 0s; }
+.projects_wrapper_three_left._active {transform: scale(1); opacity: 1; transition: all 1s ease 0.1s;}
+
+.projects_wrapper_four_right { transform: scale(0); opacity: 0; transition: all 1s ease 0s; }
+.projects_wrapper_four_right._active {transform: scale(1); opacity: 1; transition: all 1s ease 0.1s;}
+
+.projects_wrapper_five_left { transform: scale(0); opacity: 0; transition: all 1s ease 0s; }
+.projects_wrapper_five_left._active {transform: scale(1); opacity: 1; transition: all 1s ease 0.1s;}
+
+/* Top footer */
+.footer_information_top_social_networks,
+.footer_information_top_about {opacity: 0;}
+.footer_information_top_social_networks._active,
+.footer_information_top_about._active {opacity: 1;transition: all ease 1s;}
+
+/* Center logo */
+.footer_logo {transform: scale(0);opacity: 0;}
+.footer_logo._active {transform: scale(1);opacity: 1;transition: all 0.5s ease 0.5s;}
+
+/* Bottom footer */
+.footer_information_bottom_left {transform: scale(0);opacity: 0;}
+.footer_information_bottom_left._active {transform: scale(1);opacity: 1;transition: all 0.5s ease;}
+.footer_information_bottom_right {transform: scale(0);opacity: 0;}
+.footer_information_bottom_right._active {transform: scale(1);opacity: 1;transition: all 0.5s ease;}
+
+@media screen and (max-width: 991px) { 
+    /* Emergence of projects for the desktop version */
+    .projects_wrapper_two_right_desctopVersion,
+    .projects_wrapper_four_right_desctopVersion {transform: scale(0); opacity: 0; transition: all 1s ease 0s; } 
+    .projects_wrapper_two_right_desctopVersion._active,
+    .projects_wrapper_four_right_desctopVersion._active {transform: scale(1); opacity: 1; transition: all 1s ease 0.1s;}
+
+    /* Top footer */
+    .footer_information_top_social_networks,
+    .footer_information_top_about {opacity: 0;}
+    .footer_information_top_social_networks._active,
+    .footer_information_top_about._active {opacity: 1;transition: all 1s ease 0.5s;}
+    
+    /* Center logo */
+    .footer_logo {transform: scale(0);opacity: 0; transition: all 1s ease 0.5;}
+    .footer_logo._active {transform: scale(1);opacity: 1;transition: all 1.5s ease 0.5s;}
+
+    /* Bottom footer */
+    .footer_information_bottom_left {transform: scale(0);opacity: 0;}
+    .footer_information_bottom_left._active {transform: scale(1);opacity: 1;transition: all 1s ease 0.5s;}
+    .footer_information_bottom_right {transform: scale(0);opacity: 0;}
+    .footer_information_bottom_right._active {transform: scale(1);opacity: 1;transition: all 1s ease 0.5s;}
+} 
+
+@media screen and (max-width: 500px) { 
+    /* MOBILE VERSION */
+    /* The appearance of "What's the point?" */
+    .wrapper_about_mobile_h1 {transform: translate(-50%, 0px); opacity: 0; transition: all 1s ease 0.5s;}
+    .wrapper_about_mobile_h1._active {transform: translate(0px, 0px); opacity: 1;transition: all 1s ease 0s;}
+    /* one */
+    .wrapper_about_mobile_ul_one {transform: translate(-50%, -50%); opacity: 0; transition: all 1s ease 0.5s;}
+    .wrapper_about_mobile_ul_one._active { transform: translate(0px, 0px); opacity: 1; transition: all 1s ease 0.3s;}
+    /* two */
+    .wrapper_about_mobile_ul_two { transform: translate(-30%, 0px); opacity: 0; transition: all 1s ease 0.5s;}
+    .wrapper_about_mobile_ul_two._active { transform: translate(0px, 0px); opacity: 1; transition: all 1s ease 0.6s;}
+    /* three */
+    .wrapper_about_mobile_ul_three { transform: translate(-30%, 0px);  opacity: 0;  transition: all 1s ease 0.5s;}
+    .wrapper_about_mobile_ul_three._active { transform: translate(0px, 0px); opacity: 1; transition: all 1s ease 0.6s;}
+    /* four */
+    .wrapper_about_mobile_ul_four {  transform: translate(-50%, 50%);  opacity: 0;  transition: all 1s ease 0.5s;}
+    .wrapper_about_mobile_ul_four._active { transform: translate(0px, 0px); opacity: 1; transition: all 1s ease 0.6s;}
+
+    /* Header dnevnik */
+    .wrapper_about_author_h1 { transform: translate(0px, -50%); opacity: 0; transition: all 1s ease 0s;}
+    .wrapper_about_author_h1._active { transform: translate(0px, 0px);  opacity: 1;  transition: all 1s ease 0.5s;}
+    /* Dnevnik */
+    .wrapper_about_author_up {  transform: translate(0px, -50%);  opacity: 0;  transition: all 1s ease 0s;}
+    .wrapper_about_author_up._active {  transform: translate(0px, 0px); opacity: 1;  transition: all 1s ease 1s;}
+
+    /* The appearance of skills */
+    /* one left */
+    .category_skills_mobile_one_left {  transform: scale(0);  opacity: 0; transition: all 1s ease 0s;}
+    .category_skills_mobile_one_left._active {  transform: scale(1);  opacity: 1; transition: all 0.8s ease 0s;}
+    /* two left */
+    .category_skills_mobile_two_left { transform: scale(0);  opacity: 0; transition: all 1s ease 0s;}
+    .category_skills_mobile_two_left._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0s;}
+    /* three left */
+    .category_skills_mobile_three_left {  transform: scale(0);  opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_three_left._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0s;}
+    /* four left */
+    .category_skills_mobile_four_left {  transform: scale(0);  opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_four_left._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0s;}
+    /* five left */
+    .category_skills_mobile_five_left { transform: scale(0);  opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_five_left._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0s;}
+    /* six left */
+    .category_skills_mobile_six_left {  transform: scale(0);  opacity: 0; transition: all 1s ease 0s;}
+    .category_skills_mobile_six_left._active {  transform: scale(1);  opacity: 1; transition: all 0.8s ease 0s;}
+    /* one right */
+    .category_skills_mobile_one_right {  transform: scale(0);  opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_one_right._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0.1s;}
+    /* two right */
+    .category_skills_mobile_two_right {  transform: scale(0);  opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_two_right._active {  transform: scale(1);  opacity: 1; transition: all 0.8s ease 0.1s;}
+    /* three right */
+    .category_skills_mobile_three_right {  transform: scale(0); opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_three_right._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0.1s;}
+    /* four right */
+    .category_skills_mobile_four_right {  transform: scale(0);  opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_four_right._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0.1s;}
+    /* five right */
+    .category_skills_mobile_five_right {  transform: scale(0);  opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_five_right._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0.1s;}
+    /* six right */
+    .category_skills_mobile_six_right {  transform: scale(0);  opacity: 0;  transition: all 1s ease 0s;}
+    .category_skills_mobile_six_right._active {  transform: scale(1);  opacity: 1;  transition: all 0.8s ease 0.1s;}
+
+    /* Footer resume link*/
+    .wrapper_footer_mobile_btn {  transform: scale(0); opacity: 0; transition: all 1s ease 0s;}
+    .wrapper_footer_mobile_btn._active { transform: scale(1); opacity: 1;  transition: all 0.8s ease 0.3s;}
+
+     /* Tg */
+     .footer_m_telega {  transform: translate(-150%, 0px);  opacity: 0; transition: all 1s ease 0s;}
+     .footer_m_telega._active {  transform: translate(0px, 0px);  opacity: 1; transition: all 0.8s ease 0.9s;} 
+     /* Inst */
+    .footer_m_inst {  transform: translate(-150%, 0px);  opacity: 0; transition: all 1s ease 0s;}
+    .footer_m_inst._active { transform: translate(0px, 0px); opacity: 1; transition: all 0.8s ease 1.1s;}
+     /* Tt */
+    .footer_m_tt { transform: translate(-150%, 0px); opacity: 0;  transition: all 1s ease 0s;}
+    .footer_m_tt._active { transform: translate(0px, 0px);  opacity: 1;  transition: all 0.8s ease 1.3s;}
+  
+    /* Resume */
+    .footer_m_rezume { transform: translate(0%, 50%); opacity: 0;  transition: all 1s ease 0s;}
+    .footer_m_rezume._active { transform: translate(0px, 0px);  opacity: 1;  transition: all 0.8s ease 1.5s;}
+
+    /* Copyright */
+    .wrapper_footer_mobile_p {  transform: translate(0px, 50%);  opacity: 0;  transition: all 1s ease 0s;}
+    .wrapper_footer_mobile_p._active {  transform: translate(0px, 0px);  opacity: 1;  transition: all 0.8s ease 1.6s;}
+    .wrapper_footer_mobile_copyright { transform: translate(0px, 50%); opacity: 0;  transition: all 1s ease 0s;}
+    .wrapper_footer_mobile_copyright._active {  transform: translate(0px, 0px);  opacity: 1; transition: all 0.8s ease 1.7s;}
+}

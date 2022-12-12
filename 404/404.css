@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+body {
+    background: url(/404/404_2.jpg) no-repeat center top / cover;
+    font-family: "PT Sans";
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+img, .up {
+    padding-top: 5%;
+    animation: 3s up infinite alternate;
+}
+
+@keyframes up {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+h1 {
+    font-size: 9vh;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: rgb(206, 41, 41);
+    font-weight: 700;
+    font-family: 'DotGothic16', sans-serif;
+}
+p {
+    font-size: 5.5vh;
+    font-family: "Comforter Brush";
+}
+
+.btn a{
+    padding: 10px 20px ;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(206, 41, 41);
+    text-transform: uppercase;
+}
+
+.btn a:hover {
+    background-color: #222222;
+    color: #fff;
+    transition: 0.5s all;
+}

@@ -959,7 +959,7 @@
         margin-left: -20px;
     }
     .section_one_headerAndImportantScreen {
-        background: url(../img/mobile/primer.webp) no-repeat center top / cover;
+        background: url(../img/mobile/one_wrapper_light.webp) no-repeat center top / cover;
         height: 100vh;
     }
     .menu_icon {
@@ -980,7 +980,7 @@
         height: 4%;
         width: 75%;
         transition: all 0.3s ease 0s;
-        background-color: #adadad;
+        background-color: rgb(216, 215, 215);
     }
     .menu_icon span {
         display: none;
@@ -990,7 +990,7 @@
     .section_one_headerAndImportantScreen h1 {
         padding: 100px;
         color: #fff;
-        margin: 10% auto 0 20px;
+        margin: 15% auto 0 20px;
         padding: 0;
         font-size: 20px;
         font-family: "Roboto Condensed";
@@ -1001,11 +1001,14 @@
 
     /* wrapper_two */
     .wrapper_magazine_mobile {
+        border-top: 3px solid #ded6cf;
         display: block;
         color: #fff;
-        background-color: #000;
+        background: url(../img/mobile/two.webp) no-repeat center top / cover;
+      
         margin-top: 245px;
         padding-bottom: 2%;
+        height: 100vh;
     }
     
     .wrapper_about_mobile_h1 {
@@ -1014,7 +1017,7 @@
         padding-top: 5%;
         font-family: "Roboto Condensed";
         font-weight: 100;
-        color: #cccccc;
+        color: #222222;
     }
     .wrapper_about_mobile_ul li{
         font-family: "Roboto Condensed";
@@ -1039,7 +1042,7 @@
     .wrapper_about_mobile_ul_two,
     .wrapper_about_mobile_ul_three,
     .wrapper_about_mobile_ul_four {
-        background: linear-gradient(90deg, #ffffff, #797979,#ffffff);
+        background: linear-gradient(90deg, #ececec, #ececec, #3d3d3d,#c5c5c5,#ececec,#ececec,#ffffff);
         background-size: 400% 400%;
         animation: anim_1 10s infinite ease-in-out;
     }
@@ -1066,18 +1069,19 @@
     /* about author */
     .wrapper_about_author {
         display: block;
-        background: url(../img/mobile/IMGfff_дд0225.webp) no-repeat center top / cover;
+        background: url(../img/mobile/oscar.webp) no-repeat center top / cover;
         /* height: 100%; */
         max-width: 100%;
         margin: 4% 2% 0 2%;
         border-radius: 20px;
+        height: 100vh;
     }
     .wrapper_about_author h1 {
         font-size: 2.2em;
         font-family: "Roboto Condensed";
         text-align: center;
-        padding-top: 10%;
-        padding-bottom: 5%;
+        padding-top: 5%;
+        padding-bottom: 2%;
         color: #222222;
         font-weight: 200;
     }
@@ -1089,7 +1093,7 @@
         font-size: 20px;
     }
     .wrapper_about_author_up ul li {
-        padding-bottom: 10px;
+        padding-bottom: 8px;
         color: #222222;
     }
     .wrapper_about_author_up .bottom {
@@ -1102,13 +1106,13 @@
         margin-top: 25px;
         padding-bottom: 600px;
     }
-    .read_more a {
+    /* .read_more a {
         font-family: "Roboto Condensed";
         font-weight: 200;
         color: #000;
         font-size: 25px;
         text-decoration: underline;
-    }
+    } */
 
     /* information_skills_mobile */
     .information_skills_mobile {
@@ -1337,7 +1341,7 @@
     .wrapper_footer_mobile_copyright {
         padding-top: 10px;
     }
-    .footer_m_rezume {
+    /* .footer_m_rezume {
         max-width: 30px;
         margin: 0 auto 10px auto;
         animation: pulse 3s infinite;
@@ -1352,7 +1356,7 @@
         100% {
             transform: scale(0.9, 0.9);
         }
-    }
+    } */
     /* preFooter_mobile */
     .preFooter_mobile {
         display: block;

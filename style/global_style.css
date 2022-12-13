@@ -784,7 +784,6 @@ footer {
 }
 
 /* none */
-
 .menu_icon {
     display: none;
 }
@@ -845,7 +844,6 @@ footer {
 .wrapper_magazine_mobile_bottom {
     display: none;
 }
-
 
 .css_dark,
 .html_dark,
@@ -1026,7 +1024,6 @@ footer {
     opacity: 1;
     visibility: visible;   
     background: url(https://i.pinimg.com/originals/b5/db/46/b5db46949d9005be06ebf248ab1dbb00.gif) center no-repeat;
-    
     background-color: #000;
 }
 .preloader-2.done {

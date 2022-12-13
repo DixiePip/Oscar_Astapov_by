@@ -232,17 +232,34 @@ footer .line {
 }
 @media screen and (max-width: 500px) {
     .section_one_headerAndImportantScreen {
-        background: url(../img/mobile/black_2.webp) no-repeat center top / cover;
+        background: url(../img/mobile/one_wrapper_black.webp) no-repeat center top / cover;
     }
     .wrapper_about_author {
-        background: url(../img/mobile/IMGfff_0225.webp) no-repeat center top / cover;
+        background: url(../img/mobile/three.webp) no-repeat center top / cover;
+    }
+    .wrapper_magazine_mobile {
+        border-top: none;
+        background: url(../img/mobile/sense.webp) no-repeat center top / cover;
+    }
+    .wrapper_about_author h1 {
+
+        color: #e4e4e4;
+ 
+    }
+    .wrapper_about_mobile_h1 {
+
+        color: #dadada;
+    }
+    .wrapper_about_author_up ul li {
+
+        color: #bebebe;
     }
     .header_logo_dark {
         display: none;
     }
     .menu_icon span, .menu_icon::before, .menu_icon::after {
-        background-color: #000000;
-        height: 3px;
+        background-color: #c2c2c2;
+        height: 1px;
     }
     .theme {
         margin: 0 auto;

@@ -238,8 +238,7 @@ footer .line {
         background: url(../img/mobile/three.webp) no-repeat center top / cover;
     }
     .wrapper_magazine_mobile {
-        border-top: none;
-        background: url(../img/mobile/sense.webp) no-repeat center top / cover;
+        background: url(../img/mobile/9.webp) no-repeat center top / cover;
     }
     .wrapper_about_author h1 {
 
@@ -258,7 +257,7 @@ footer .line {
         display: none;
     }
     .menu_icon span, .menu_icon::before, .menu_icon::after {
-        background-color: #c2c2c2;
+        background-color: #a09e9e;
         height: 1px;
     }
     .theme {

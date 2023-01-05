@@ -308,7 +308,7 @@
     .img_photo_skills_mobile {
         display: block;
         max-width: 100%;
-        padding-top: 90px;
+        padding-top: 22px;
     }
     .category_skills { 
         font-size: 20px;
@@ -570,7 +570,7 @@
     }
     .section_three_gazeta_tablet .gazeta_bottom {
         max-width: 700px;
-        margin: -270px auto 0 auto;
+        margin: -255px auto 0 auto;
     }
     .peach_one {
         display: none;
@@ -622,7 +622,7 @@
         margin: 20px auto 10px auto;
     }
     .category_skills {
-        margin: 50px auto 0px auto;
+        margin: 150px auto 0px auto;
     }
     .information_skills h1 {
         font-size: 70px;
@@ -632,8 +632,11 @@
     }
     .category_skills_left_top,
     .category_skills_right_top {
-        margin-bottom: 70px;
+        margin-bottom: 35px;
     } 
+    .category_skills_left_bottom {
+    padding-bottom: 0px;
+}
     /* footer */
     .footer_information_top_social_networks ul li, .line {
         margin-top: 22px;
@@ -840,7 +843,7 @@
         padding: 100px 15px;
     }
     .category_skills {
-        margin: 50px auto 0px 70px;
+        margin: 150px auto 0px 115px;
     }
 }
 
@@ -908,7 +911,7 @@
         margin-right: 25px;
     }
     .category_skills {
-        margin: 50px auto 0px 60px;
+        margin: 150px auto 0px 88px;
     }
     .projects_wrapper {
         margin-right: 15px;

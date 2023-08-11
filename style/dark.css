@@ -42,6 +42,11 @@ body {
     border: 1px solid #fff;
 }
 
+.white_border {
+    color: #fff;
+    border: #fff;
+}
+
 /* Peach */
 .gulp:hover {
     background-color: #eb4a4b;
@@ -220,6 +225,16 @@ footer .line {
 }
 .header_logo {
     display: none;
+}
+
+.projects_wrapper_two_left_about_btn a.white_border {
+    border: 1px solid rgb(255, 255, 255);
+}
+.projects_wrapper_three_right_about_btn a.white_border {
+    border: 1px solid rgb(255, 255, 255);
+}
+.projects_wrapper_four_left_about_btn a.white_border {
+    border: 1px solid rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 767px) {
@@ -512,6 +527,7 @@ footer .line {
     .popup_content_mobile_ps .popup_text ul li a{
         color: #00c8ff;
     }
+    
 
     /* oop  */
     .popup_content_mobile_oop {

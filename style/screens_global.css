@@ -1197,7 +1197,7 @@
     .slider_item_btn p{
         font-size: 7vw;
         font-family: "Alumni Sans Pinstripe";
-        width: 26%;
+        width: 28%;
         margin: 0 auto;
         align-items: center;
         border: 1px solid #000;
@@ -1206,6 +1206,7 @@
         background-color: #222222;
         margin-top: 20px;
         padding: 5px;
+        text-align: center;
     }
     
     /* !Common parameters */
